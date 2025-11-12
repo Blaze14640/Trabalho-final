@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo do Clique Rápido</title>
+  <link rel="icon" type="image/jpeg" href="download.jpeg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1> Jogo do Clique Rápido</h1>
+
+  <div id="game-area">
+    <div id="circle"></div>
+  </div>
+
+  <div id="info">
+    <p><strong>Pontos:</strong> <span id="score">0</span></p>
+    <p><strong>Tempo:</strong> <span id="time">30</span>s</p>
+	
+    <label for="game-time">Duração do jogo:</label>
+    <input type="number" id="game-time" value="30" min="10" max="60" step="5">
+    <p>Dificuldade:</p>
+    <button id="easy">Fácil</button>
+    <button id="medium">Média</button>
+    <button id="hard">Difícil</button>
+
+    <button id="startBtn">Iniciar Jogo</button>
+	<button id="stopBtn" disabled> Finalizar Jogo</button>
+  </div>
+
+  <footer>
+    <p>Feito por Bernardo💻</p>
+  </footer>
+
+  <script src="script1.js" defer></script>
+</body>
+</html>
