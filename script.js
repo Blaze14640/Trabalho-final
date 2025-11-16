@@ -82,9 +82,9 @@ function stopGameManually() {
 startBtn.addEventListener("click", startGame);
 stopBtn.addEventListener("click", stopGameManually);
 
-// Botões de dificuldade
+
 easyBtn.addEventListener("click", () => {
-  moveSpeed = 950;
+  moveSpeed = 800;
   alert("😎 Dificuldade: Fácil — o círculo se moverá mais devagar!");
 });
 
