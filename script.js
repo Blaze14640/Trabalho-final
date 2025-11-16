@@ -84,7 +84,7 @@ stopBtn.addEventListener("click", stopGameManually);
 
 // Botões de dificuldade
 easyBtn.addEventListener("click", () => {
-  moveSpeed = 800;
+  moveSpeed = 950;
   alert("😎 Dificuldade: Fácil — o círculo se moverá mais devagar!");
 });
 
@@ -94,6 +94,7 @@ mediumBtn.addEventListener("click", () => {
 });
 
 hardBtn.addEventListener("click", () => {
-  moveSpeed = 400;
+  moveSpeed = 475;
   alert("🔥 Dificuldade: Difícil — o círculo se moverá muito rápido!");
 });
+
